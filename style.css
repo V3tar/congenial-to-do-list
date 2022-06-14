@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-section-items {
+    background-image: linear-gradient(120deg,#7bc6d0,#719fc7);
+    border-radius: 1rem;
+    padding: 4rem;
+}
+li {
+    list-style: none;
+}
+.alert {
+    visibility: hidden;
+}
+.alert-green {
+    background-color: #43ff95a8;
+    border-radius: 2px;
+    color: #2b503b;
+    text-align: center;
+    visibility: visible;
+}
+.alert-red {
+    background: #e437188b;
+    border-radius: 2px;
+    color: #4e241c;
+    text-align: center;
+    visibility: visible;
+}
+.btn-delete {
+    background: #e437188b;
+}
+.list-items > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-submit {
+    font-weight: 700;
+    color: #fff;
+    border-radius:0px 5px 5px 0px ;
+    background: rgb(33, 44, 83);
+    border: solid 1px black;
+}
